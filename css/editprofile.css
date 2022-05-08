@@ -2007,6 +2007,9 @@ nav>ul.container li>ul>li>a {
     .user-form form div.form-section label {
         font-size: 12px;
     }
+    .user-form form div.phone-section label {
+        font-size: 10px;
+    }
 }
 
 .user-form form div.name-section input.user-name,
