@@ -1907,8 +1907,7 @@ nav>ul.container li>ul>li>a {
 @media (max-width: 480px) {
     .user-form form {
         width: 95%;
-        padding: 20px;
-        padding-top: 80px;
+        padding: 100px 15px 40px;
         gap: 20px;
     }
 }
