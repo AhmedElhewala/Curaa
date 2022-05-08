@@ -30,20 +30,20 @@ let notificationSetting = `.notification .notification-setting`;
 // go up button variables
 let goUpBtn = document.querySelector(`.go-up`);
 // form variables
-let nameInput = `.user-form form div.name-section input.user-name`;
-let nameIcon = `.user-form form div.name-section .name-icon svg`;
-let emailInput = `.user-form form div.site-email input.user-email`;
-let emailIcon = `.user-form form div.site-email .email-icon svg`;
-let gmailInput = `.user-form form div.gmail-email input.user-email`;
-let gmailIcon = `.user-form form div.gmail-email .email-icon svg`;
-let phoneInput = `.user-form form div.phone-section input.user-phone`;
-let phoneIcon = `.user-form form div.phone-section .phone-icon svg`;
-let birthInput = `.user-form form div.birthday-section input.user-birthday`;
-let birthIcon = `.user-form form div.birthday-section .birthday-icon svg`;
-let petInput = `.user-form form div.pet-section select.user-pet`;
-let petIcon = `.user-form form div.pet-section .select-icon svg`;
-let sensorInput = `.user-form form div.sensor-section select.pet-sensor`;
-let sensorIcon = `.user-form form div.sensor-section .select-icon svg`;
+let nameInput = `.user-form form div.name-section div.input-section input.user-name`;
+let nameIcon = `.user-form form div.name-section div.input-section .name-icon svg`;
+let emailInput = `.user-form form div.site-email div.input-section input.user-email`;
+let emailIcon = `.user-form form div.site-email div.input-section .email-icon svg`;
+let gmailInput = `.user-form form div.gmail-email div.input-section input.user-email`;
+let gmailIcon = `.user-form form div.gmail-email div.input-section .email-icon svg`;
+let phoneInput = `.user-form form div.phone-section div.input-section input.user-phone`;
+let phoneIcon = `.user-form form div.phone-section div.input-section .phone-icon svg`;
+let birthInput = `.user-form form div.birthday-section div.input-section input.user-birthday`;
+let birthIcon = `.user-form form div.birthday-section div.input-section .birthday-icon svg`;
+let petInput = `.user-form form div.pet-section div.input-section select.user-pet`;
+let petIcon = `.user-form form div.pet-section div.input-section .select-icon svg`;
+let sensorInput = `.user-form form div.sensor-section div.input-section select.pet-sensor`;
+let sensorIcon = `.user-form form div.sensor-section div.input-section .select-icon svg`;
 // localstorage values variables
 let saveLogo = localStorage.getItem("logo-color");
 let saveColor = localStorage.getItem("option-color");
