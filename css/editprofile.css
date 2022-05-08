@@ -2008,6 +2008,12 @@ nav>ul.container li>ul>li>a {
     }
 }
 
+@media (max-width: 480px) {
+    .user-form form div.form-section label {
+        font-size: 10px;
+    }
+}
+
 .user-form form div.name-section input.user-name,
 .user-form form div.email-section input.user-email,
 .user-form form div.phone-section input.user-phone,
