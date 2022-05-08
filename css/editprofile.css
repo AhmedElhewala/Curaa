@@ -1886,7 +1886,7 @@ nav>ul.container li>ul>li>a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 25px;
+    gap: 35px;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
@@ -1906,7 +1906,7 @@ nav>ul.container li>ul>li>a {
 
 @media (max-width: 480px) {
     .user-form form {
-        width: 98%;
+        width: 95%;
         padding: 100px 15px 40px;
         gap: 20px;
     }
@@ -1992,34 +1992,27 @@ nav>ul.container li>ul>li>a {
 
 .user-form form div.form-section {
     width: 100%;
-    position: relative;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .user-form form div.form-section label {
     font-size: 14px;
+    font-weight: bold;
 }
 
-@media (max-width: 767px) {
-    .user-form form div.form-section label {
-        font-size: 12px;
-    }
+.user-form form div.form-section div.input-section {
+    width: 100%;
+    position: relative;
 }
 
-@media (max-width: 480px) {
-    .user-form form div.form-section label {
-        font-size: 10px;
-    }
-}
-
-.user-form form div.name-section input.user-name,
-.user-form form div.email-section input.user-email,
-.user-form form div.phone-section input.user-phone,
-.user-form form div.birthday-section input.user-birthday,
-.user-form form div.select-section select {
-    width: 75%;
+.user-form form div.name-section div.input-section input.user-name,
+.user-form form div.email-section div.input-section input.user-email,
+.user-form form div.phone-section div.input-section input.user-phone,
+.user-form form div.birthday-section div.input-section input.user-birthday,
+.user-form form div.select-section div.input-section select {
+    width: 100%;
     padding: 12px 30px;
     padding-right: 40px;
     background-color: var(--light-color);
@@ -2038,19 +2031,19 @@ nav>ul.container li>ul>li>a {
 }
 
 @media (max-width: 480px) {
-    .user-form form div.name-section input.user-name,
-    .user-form form div.email-section input.user-email,
-    .user-form form div.phone-section input.user-phone,
-    .user-form form div.birthday-section input.user-birthday,
-    .user-form form div.select-section select {
+    .user-form form div.name-section div.input-section input.user-name,
+    .user-form form div.email-section div.input-section input.user-email,
+    .user-form form div.phone-section div.input-section input.user-phone,
+    .user-form form div.birthday-section div.input-section input.user-birthday,
+    .user-form form div.select-section div.input-section select {
         padding: 10px 20px;
         font-size: 14px;
         padding-right: 30px;
     }
 }
 
-.user-form form div.birthday-section input.user-birthday::-webkit-calendar-picker-indicator,
-.user-form form div.birthday-section input.user-birthday::-webkit-inner-spin-button {
+.user-form form div.birthday-section div.input-section input.user-birthday::-webkit-calendar-picker-indicator,
+.user-form form div.birthday-section div.input-section input.user-birthday::-webkit-inner-spin-button {
     background: transparent;
     bottom: 0;
     color: transparent;
@@ -2064,15 +2057,15 @@ nav>ul.container li>ul>li>a {
     cursor: pointer;
 }
 
-.user-form form div.birthday-section input.user-birthday {
+.user-form form div.birthday-section div.input-section input.user-birthday {
     direction: ltr;
 }
 
-.user-form form div.name-section .name-icon,
-.user-form form div.phone-section .phone-icon,
-.user-form form div.email-section .email-icon,
-.user-form form div.birthday-section .birthday-icon,
-.user-form form div.select-section .select-icon {
+.user-form form div.name-section div.input-section .name-icon,
+.user-form form div.phone-section div.input-section .phone-icon,
+.user-form form div.email-section div.input-section .email-icon,
+.user-form form div.birthday-section div.input-section .birthday-icon,
+.user-form form div.select-section div.input-section .select-icon {
     width: 40px;
     height: 100%;
     background-color: var(--light-color);
@@ -2097,11 +2090,11 @@ nav>ul.container li>ul>li>a {
 }
 
 @media (max-width: 480px) {
-    .user-form form div.name-section .name-icon,
-    .user-form form div.phone-section .phone-icon,
-    .user-form form div.email-section .email-icon,
-    .user-form form div.birthday-section .birthday-icon,
-    .user-form form div.select-section .select-icon {
+    .user-form form div.name-section div.input-section .name-icon,
+    .user-form form div.phone-section div.input-section .phone-icon,
+    .user-form form div.email-section div.input-section .email-icon,
+    .user-form form div.birthday-section div.input-section .birthday-icon,
+    .user-form form div.select-section div.input-section .select-icon {
         width: 30px;
         font-size: 14px;
     }
@@ -2112,16 +2105,16 @@ nav>ul.container li>ul>li>a {
     outline: none;
 }
 
-.user-form form div.name-section input.user-name:focus,
-.user-form form div.email-section input.user-email:focus,
-.user-form form div.phone-section input.user-phone:focus,
-.user-form form div.birthday-section input.user-birthday:focus,
-.user-form form div.select-section select:focus {
+.user-form form div.name-section div.input-section input.user-name:focus,
+.user-form form div.email-section div.input-section input.user-email:focus,
+.user-form form div.phone-section div.input-section input.user-phone:focus,
+.user-form form div.birthday-section div.input-section input.user-birthday:focus,
+.user-form form div.select-section div.input-section select:focus {
     filter: drop-shadow(0 0 2px var(--option-color));
     -webkit-filter: drop-shadow(0 0 2px var(--option-color));
 }
 
-.user-form form div.select-section select:focus {
+.user-form form div.select-section div.input-section select:focus {
     border-bottom-left-radius: 0;
     -webkit-border-bottom-left-radius: 0;
     -moz-border-bottom-left-radius: 0;

@@ -224,36 +224,30 @@ nav>ul.container li>ul {
 
 /* Start Form */
 
-.user-form form div.name-section input.user-name,
-.user-form form div.email-section input.user-email,
-.user-form form div.phone-section input.user-phone,
-.user-form form div.birthday-section input.user-birthday,
-.user-form form div.select-section select {
+.user-form form div.name-section div.input-section input.user-name,
+.user-form form div.email-section div.input-section input.user-email,
+.user-form form div.phone-section div.input-section input.user-phone,
+.user-form form div.select-section div.input-section select {
     padding-right: 30px;
     padding-left: 40px;
 }
 
 @media (max-width: 480px) {
-    .user-form form div.name-section input.user-name,
-    .user-form form div.email-section input.user-email,
-    .user-form form div.phone-section input.user-phone,
-    .user-form form div.birthday-section input.user-birthday,
-    .user-form form div.select-section select {
+    .user-form form div.name-section div.input-section input.user-name,
+    .user-form form div.email-section div.input-section input.user-email,
+    .user-form form div.phone-section div.input-section input.user-phone,
+    .user-form form div.select-section div.input-section select {
         padding-right: 20px;
         padding-left: 30px;
     }
 }
 
-.user-form form div.name-section .name-icon,
-.user-form form div.phone-section .phone-icon,
-.user-form form div.email-section .email-icon,
-.user-form form div.select-section .select-icon {
+.user-form form div.name-section div.input-section .name-icon,
+.user-form form div.phone-section div.input-section .phone-icon,
+.user-form form div.email-section div.input-section .email-icon,
+.user-form form div.select-section div.input-section .select-icon {
     right: unset;
     left: 0;
-}
-
-.user-form form div.birthday-section .birthday-icon {
-    right: 25%;
 }
 
 .user-form form div.save-section .save-btn::after {
@@ -261,7 +255,7 @@ nav>ul.container li>ul {
     right: 0;
 }
 
-.user-form form div.save-section .save-btn:hover::afterr {
+.user-form form div.save-section .save-btn:hover::after {
     left: unset;
     right: 105%;
 }
